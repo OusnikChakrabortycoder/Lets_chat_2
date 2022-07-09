@@ -1,0 +1,38 @@
+#img_chat_all_day{
+    width: 100px ;
+    height: 100px;
+}
+#massage{
+    width:500px;
+    height: 300px; 
+    box-shadow: 5px 5px 30px black;
+    border-color: aqua;
+    background-color: blue;
+    overflow: scroll;
+}
+#send{
+    width: 100%;
+    
+    box-shadow: 5px 5px 30px black;
+    background-color: aqua;
+    padding: 10px;
+    margin: 5px;
+}
+#send_massage{
+    width: 80%;
+    color: maroon;
+    font-family: cursive;
+    text-align: center;
+}
+#send_massage::placeholder{
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+#send_button{
+    box-shadow:5px 5px 30px black;
+    width: 40%;
+}
+#logout{
+    width: 40%;
+}

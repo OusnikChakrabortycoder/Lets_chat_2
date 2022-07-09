@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            chat all day 
+        </title>
+        <link rel="stylesheet" href="nextnextpage.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1 id="chat_all_day">
+           Chat all day
+           <img id="img_chat_all_day" src="chatbot.png">
+        </h1>
+        <br>
+        <div id="massage">
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="send">
+         <input type="text" id="send_massage" placeholder="type your massage here">
+         <br>
+         <br>
+         <button id="send_button" class="btn btn-danger" onclick="send_massage_button()">Send</button>
+        </div>
+        <br>
+        <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-info">Logout</button>
+       
+    </center>
+    <script src="nextnext.js"></script>
+    </body>
+</html>

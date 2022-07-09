@@ -1,0 +1,27 @@
+#LOGO{
+    width: 200px;
+    height: 150px;
+}
+#div2{
+    background-color: blue;
+    width: 60%;
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: 5px 5px 30px black;
+    margin: 10px;
+}
+#room_name1{
+    width: 80%;
+    color: white;
+}
+#room_name1::placeholder{
+    text-align: center;
+}
+#Room_names{
+    background-color: aqua;
+    width: 60%;
+    color: rgb(15, 15, 15);
+    padding: 10px;
+    box-shadow: 5px 5px 30px black;
+    margin: 10px;
+}

@@ -1,0 +1,25 @@
+#title{
+    width: 40% ;
+    height: 50px;
+}
+#LOGO{
+    width: 200px;
+    height: 150px;
+}
+#select_name_button_id{
+    width: 40% ;
+    height: 50px;
+}
+#div{
+    background-color: chartreuse;
+    width: 60%;
+    padding: 10px;
+    border: 10px gray ridge;
+    box-shadow: 5px 5px 30px gray;
+    }
+body{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Images-dock-wood-light.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
